@@ -1,0 +1,18 @@
+Minimax Algorithm - Short Summary
+The Minimax algorithm is a decision-making algorithm used in two-player games like Tic-Tac-Toe. It helps the AI choose the best move by simulating all possible future game states.
+
+How it Works:
+
+Recursion & Backtracking: The algorithm explores every possible move by recursively playing the game until a terminal state (win, loss, or draw) is reached.
+Evaluation: Each state is assigned a score:
++10 if AI wins.
+-10 if the player wins.
+0 for a draw.
+
+Minimizing & Maximizing:
+The AI (Maximizer) picks the move with the highest score.
+The Player (Minimizer) picks the move with the lowest score.
+
+Optimal Move Selection: The AI evaluates all possible moves and chooses the one that guarantees the best possible outcome, making it unbeatable.
+
+💡 Key Idea: Minimax simulates all possible future game states and assumes both players play optimally. This makes the AI always choose the best move while avoiding losing positions.
